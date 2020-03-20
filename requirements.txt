@@ -4,5 +4,5 @@ dash
 dash_core_components
 dash_html_components
 transformers
-torch
+https://download.pytorch.org/whl/torch_stable.html
 gunicorn
