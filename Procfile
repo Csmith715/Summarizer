@@ -1,1 +1,1 @@
-web: gunicorn QnA_DashApp.wsgi --log-file -
+web: gunicorn Question_Answer_Dash:server
