@@ -1,1 +1,1 @@
-web: gunicorn --timeout 180 Question_Answer_Dash:server
+web: gunicorn --timeout 180 extract_sections:server
