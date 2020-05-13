@@ -4,9 +4,5 @@ dash
 dash_core_components
 dash_html_components
 dash-ui
-pickle
-difflab
 spacy
-operator
-itertools
 gunicorn
