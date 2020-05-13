@@ -14,7 +14,7 @@ from phrase_funcs import *
 external_stylesheets = ["https://codepen.io/rmarren1/pen/mLqGRg.css"]
 
 app = dash.Dash(__name__, external_stylesheets = external_stylesheets)
-#server = app.server
+server = app.server
 
 
 with open('whatrules2.data', 'rb') as filehandle:
