@@ -5,7 +5,6 @@ from itertools import chain, groupby
 from operator import itemgetter
 
 import spacy
-import en_core_web_sm
 from spacy.matcher import Matcher
 from spacy.matcher import PhraseMatcher
 import pickle
@@ -13,8 +12,7 @@ import pickle
 with open('qterms.data', 'rb') as filehandle:
     qterms = pickle.load(filehandle)
 
-#nlp = spacy.load('en_core_web_sm')
-nlp = en_core_web_sm.load()
+nlp = spacy.load('en_core_web_sm')
 matcher = PhraseMatcher(nlp.vocab)
 terms = qterms
 patterns = [nlp.make_doc(text) for text in terms]
