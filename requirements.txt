@@ -7,5 +7,5 @@ dash-table==4.7.0
 tokenizers==0.7.0
 https://download.pytorch.org/whl/cpu/torch-1.5.0%2Bcpu-cp36-cp36m-linux_x86_64.whl
 https://download.pytorch.org/whl/cpu/torchvision-0.6.0%2Bcpu-cp36-cp36m-linux_x86_64.whl
-transformers==2.11.0
+transformers==4.30.0
 gunicorn
